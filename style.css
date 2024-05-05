@@ -10,13 +10,15 @@ body{
 button {
     cursor: pointer;
 }
-
+img{
+    box-sizing: border-box;
+}
 /* Header */
 
 .container {
     margin: 0 auto;
     padding: 0 15px;
-    max-width: 1200px;
+    max-width: 1130px;
 }
 
 .header__wrapper {
@@ -233,18 +235,13 @@ margin-bottom: 30px;
     align-items: center;
     margin-top: 10px;
 }
-.plan__tick{
-    /* margin-right: 3px; */
-   
-}
-.plan__text{
-    
-}
+
+
 .plan__price{
 font-size: 25px;
 font-weight: 500;
 line-height: 30px;
-text-align: center;
+margin: 0 auto;
 
 }
 .free {
@@ -256,9 +253,9 @@ text-align: center;
 .twelve{
     margin-top: 50px;
 }
+
 .plan__btn{
     margin-top: 20px;
-  margin-left: 76px;
     width: 177.88px;
 height: 45px;
 border-radius: 50px;
@@ -280,22 +277,23 @@ background:white;
     background: #fbfafa;
 }
 .network-title{
-    
     margin-top: 150px;
     width: 383px;
     margin: 0 auto;
 }
 .network__wrapper{
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin-top: 155px;
 }
 .network__img{
-   
     margin: 0 auto;
-    
 }
 .network__img-sponsors{
     margin-top: 6.45px;
+    max-width: 1135px;
+    margin: 0 auto;
     
 }
 /* section customers */

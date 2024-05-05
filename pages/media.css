@@ -1,0 +1,27 @@
+@media(max-width:850px) {
+       .wrapper {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+       }
+
+       .header__nav {
+              display: none;
+       }
+
+       .plan__card {
+              margin-top: 30px;
+              width: 250px;
+              height: 660px;
+              border: 2px solid #DDDDDD;
+              background: white;
+       }
+
+       .plan__card-img {
+              margin-top: 40px;
+              text-align: center;
+       }
+
+}
+
+@media (max-width:500px) {}
