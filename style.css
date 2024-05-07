@@ -485,6 +485,7 @@ img {
 
 .column-subtitle {
     color: #4F5665;
+    margin: initial;
 }
 
 .footer__right {
@@ -497,21 +498,12 @@ img {
 
 }
 .footer__column{
+    display: flex;
     flex-direction: column;
     align-items: start;
 
 }
-.footer-product{
-    max-width: 74px;
-}
-.footer-engage{
-    max-width: 123px;
-}
-.footer-earn{
-    max-width: 121px;
-}
 
 .footer-bold {
     margin-top: 0px;
-
 }
