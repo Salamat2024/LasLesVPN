@@ -218,6 +218,11 @@ img {
     height: 760px;
     border: 2px solid #DDDDDD;
     background: white;
+    border-radius: 10px;
+}
+.plan__card:hover{
+    border-color: #F53838;
+    border-width: 2px;
 }
 
 .plan__card-img {
@@ -283,12 +288,11 @@ img {
 
 
 }
-
-.third-btn {
-    color: white;
+.plan__btn:hover{
     background: #F53838;
-    box-shadow: 0 15px 20px rgba(210, 162, 162, 0.5);
+    color: #ffffff;
 }
+
 
 /* section network */
 .network {
@@ -341,9 +345,13 @@ img {
     height: 230px;
     border-radius: 10px;
     border: 2px;
-    border: 2px solid #F53838;
+    border: 2px solid #DDDDDD;
     margin-top: 60px;
 
+}
+.customer__card:hover{
+    border-color: #F53838;
+    border-width: 2px;
 }
 
 .customer__card:not(:first-child) {
@@ -394,10 +402,6 @@ img {
 
 .customer-rate_img {
     margin-left: 10px;
-}
-
-.other-card {
-    border: 2px solid #DDDDDD;
 }
 
 .icon__wrapper {
